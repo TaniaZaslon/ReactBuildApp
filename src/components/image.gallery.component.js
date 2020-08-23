@@ -8,7 +8,7 @@ function ImageGallery({ images }) {
         ([] = images.map((item) => {
           let obj = {
             src: item.src.large,
-            title: "",
+            title: " ",
             description: " ",
           };
           return obj;
