@@ -7,7 +7,7 @@ function ImageGallery({ images }) {
       images={
         ([] = images.map((item) => {
           let obj = {
-            src: item.src.medium,
+            src: item.src.large,
             title: "",
             description: " ",
           };
@@ -16,7 +16,7 @@ function ImageGallery({ images }) {
       }
       renderImageFunc={(idx, image, toggleLightbox) => {
         return (
-          <div className="column-gallery">
+          <div className="column-gallery" key={idx}>
             <img
               key={idx}
               src={image.src}
