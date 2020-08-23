@@ -34,7 +34,10 @@ function App() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a
+            className="navbar-brand"
+            href="https://www.linkedin.com/in/tetiana-zaslon-3132547b/"
+          >
             TZaslon
           </a>
           <ul className="nav justify-content-center w-100">
